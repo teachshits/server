@@ -1,4 +1,5 @@
 defaults: &defaults
+  client_receiver_url: "http://localhost:3001/activities/receive"
 
 development:
   <<: *defaults
